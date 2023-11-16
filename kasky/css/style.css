@@ -1,0 +1,110 @@
+/**********Estilos globales************/
+*{
+    font-family: 'Lato', Courier, monospace;
+}
+.line{
+    padding: 0.5px 0;
+    background-color: #cececea1;
+}
+.ly li{
+    display: inline-block;
+    list-style: none;
+}
+.btn-2{
+    border: 1px solid #cececea1;
+    padding: 10px 3rem 10px 15.5px;
+    text-align: left!important;
+    color: #3b3b3b9c;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.btn-3{
+    border: 1px solid #cececea1;
+    padding: 1rem 2rem;
+    text-align: left!important;
+    background-color: #3b3b3b9c;
+    font-weight: bold;
+    font-size: 14px;
+    color: #1d1d1dce!important;
+}
+/**********Paleta de colores************/
+.c-negro{color: #1d1d1dce!important;}
+.c-negro2{color: #3b3b3b9c!important;}
+.c-rojo{color: #e43838!important;}
+.c-blanco{color: #FCFAFA!important;}
+.c-verde{color: #42BC43!important;}
+.c-verde2{color: #00381F!important;}
+
+/**********Fuentes************/
+.w-300{font-weight: 300;}
+.w-400{font-weight: 400;}
+.w-500{font-weight: 500;}
+.w-b{font-weight: bold;}
+
+/**********Header************/
+.header{
+    padding: 0rem 2rem;
+    box-shadow: 5px 0 5px rgba(128, 128, 128, 0.349);
+    position: fixed!important;
+    z-index: 100;
+    background-color: white;
+}
+.l-h{
+    position: relative;
+}
+.b-r{
+    border-right: solid 1.8px #cececea1;
+}
+.b-l{
+    border-left: solid 1.8px #cececea1;
+}
+.l-h li{
+    display: inline-block;
+    padding: 1.8rem;
+    margin: 0;
+}
+.l-h i{
+    color: rgba(0, 0, 0, 0.514);
+}
+ul, li, p, h1,h2,h3.h4.h5.h6{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+/**********Header************/
+.main .row{
+    height: 100vh;
+}
+.main .col-6{
+    
+}
+.main .left{
+    background-image: url('../img/1.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.right{
+    padding-left: 3rem;
+}
+/*MediaQuery*/
+@media (max-width:576px){
+	.hide{
+		display:none;
+	}
+    .header{
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+    .fff{
+        padding-top: 3rem;
+    }
+    .left{
+        height: 65%!important;
+        background-position: top;
+    }
+    .right{
+        padding-left: 1rem;
+    }
+}
